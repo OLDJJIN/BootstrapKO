@@ -136,6 +136,9 @@
   padding: 11px 30px;
   border-radius: 0%;
 }
+.our_service .container > div:nth-child(2) {
+  padding-top: 80px;
+}
 .card img {
   max-width: 65px;
   max-height: auto;
