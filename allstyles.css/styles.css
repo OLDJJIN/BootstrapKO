@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 940px;
+}
+.header__logo {
+  padding-top: 42px;
+}
+.header__text h1 {
+  padding-top: 318px;
+  font-family: "BebasNeueBold";
+  font-size: 60px;
+  letter-spacing: 5.70937px;
+  color: #ffffff;
+}
+.header__text h2 {
+  margin-top: 21px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: #ffffff;
+}
+.header__text h3 {
+  margin-top: 221px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  margin-bottom: 71px;
+  color: #ffffff;
+  font-size: 11px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header {
+  background-image: url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abc {
+  text-align: center;
+}
+.nav {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Open Sans";
+  color: #48555b;
+}
+.list {
+  padding: 25px 0;
+}
+.section__title h2 {
+  position: relative;
+  font-size: 18px;
+  color: #48555b;
+  font-family: "Open Sans";
+  margin-top: 57px;
+}
+
+.section__title h2::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #00a4e5;
+  position: absolute;
+  transform: translateX(50%);
+  bottom: -15px;
+}
+.our__text {
+  margin-top: 70px;
+  text-align: left;
+}
+.our__text p:nth-child(1) {
+  font-family: "Open Sans";
+  font-size: 20px;
+  color: #48555b;
+  font-style: normal;
+  font-weight: bold;
+}
+.our__text p:nth-child(2) {
+  margin-top: 30px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+}
+.our__text span {
+  color: #00a4e5;
+}
+.our__images {
+  margin-top: 85px;
+}
+.our__images img:not(:last-child) {
+  margin-right: 5px;
+}
+.our_service {
+  margin-top: 119px;
+}
+.service__title h2 {
+  position: relative;
+  font-size: 18px;
+  color: #48555b;
+  font-family: "Open Sans";
+}
+.service__title h2::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #00a4e5;
+  position: absolute;
+  bottom: -15px;
+}
+.our_service p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #48555b;
+}
+.btn {
+  background: #00a4e5;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 11px;
+  color: #ffffff;
+  border: #00a4e5;
+  padding: 11px 30px;
+  border-radius: 0%;
+}
+.our_service .container > div:nth-child(2) {
+  padding-top: 80px;
+}
+.card img {
+  max-width: 65px;
+  max-height: auto;
+}
+.card h3 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 25px;
+}
+.card p {
+  font-family: "Open Sans";
+  font-size: 13px;
+  margin-top: 13px;
+}
+.card {
+  padding: 40px 20px;
+  width: 300px;
+}
+.touch__text {
+  color: #48555b;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 120px;
+}
+.get_in_touch {
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.touch__text button {
+  margin-top: 35px;
+  margin-bottom: 230px;
+}
+.signup {
+  background: #171819;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.signup h4 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+}
+.signup div button {
+  transform: translateX(-24%);
+}
+.signup input {
+  border-radius: 0;
+}
+.footer {
+  background-color: black;
+}
+.footer h5 {
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #ffffff;
+  margin-top: 42px;
+}
+.footer p {
+  font-family: "Open Sans";
+  font-size: 11px;
+  color: #ffffff;
+  margin-top: 16px;
+}
+.footer a img {
+  margin-top: 20px;
+}
+.footer ul li a {
+  color: white;
+  list-style: none;
+  font-family: "Open Sans";
+  font-size: 11px;
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  transform: translateX(-40%);
+}
+.footer .col-lg-2 a img {
+  margin-top: 75px;
+}
+.footer .col-lg-2 a:not(:last-child) {
+  margin-right: 25px;
+}
+.footer2 {
+  background-color: black;
+  padding-top: 60px;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 11px;
+}
